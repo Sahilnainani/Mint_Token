@@ -8,9 +8,13 @@ This project includes a smart contract written in solidity that inherits the ERC
 
 ## Execution
 
-First - clone this project and then open it in any editor. 
-Second - open a terminal and type " npm start " to start your project
-Third - open another terminal and type " npx hardhat node "
+First - clone this project and then open it in any editor.
+
+Second - open a terminal and type " npm start " to start your project.
+
+Third - open another terminal and type " npx hardhat node ".
+
 Fourth - Enter the inputs (name, symbol, decimals, initial Supply) through the browser and click on the Mint Token.
+
 Fifth - Open console to see the details of your token
 ```
