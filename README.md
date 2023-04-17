@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# Mint Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This is a simple project to mint your own token
 
-Try running some of the following tasks:
+## Description
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+This project includes a smart contract written in solidity that inherits the ERC20 and this smart contract is having a constructor that takes the arguments name, symbol, decimal, initialSupply. The fontend is made using react js, the app.js file takes the input  name, symbol, decimal, initialSupply from the user and pass it to the constructor of the smart contract while deploying the contract on the local running blockchain through hardhat.
+
+## Execution
+
+First - clone this project and then open it in any editor. 
+Second - open a terminal and type " npm start " to start your project
+Third - open another terminal and type " npx hardhat node "
+Fourth - Enter the inputs (name, symbol, decimals, initial Supply) through the browser and click on the Mint Token.
+Fifth - Open console to see the details of your token
 ```
