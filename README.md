@@ -20,5 +20,5 @@ This project includes a smart contract written in solidity that inherits the ERC
 
 ## Usage
 
-The front-end interface allows you to enter the token name, symbol, and number of decimals for your custom ERC20 token. Once these details have been entered, you can mint tokens to your own wallet by clicking the "Mint Tokens" button.
+The front-end interface allows you to enter the token name, symbol, and number of decimals for your custom ERC20 token. Once these details have been entered, this allows you to mint your own token by clicking the "Mint Tokens" button.
 ```
